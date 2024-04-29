@@ -95,3 +95,14 @@ def process_images_from_folder(folder_path):
 # Specify the folder path containing the images
 folder_path = "Foler path"
 process_images_from_folder(folder_path)
+try:
+    process_data()
+except Exception as e:
+    print(f'Error processing data: {e}')
+import unittest
+class TestAi-freshness-InspectorFunctions(unittest.TestCase):
+    def test_example_function(self):
+        self.assertEqual(example_function(), expected_result)
+
+if __name__ == '__main__':
+    unittest.main()
